@@ -1,0 +1,21 @@
+.navbar {
+  background-color: white;
+  border-bottom: 2px solid #bfb8b8;
+}
+
+.houseImage {
+  height: 100px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.navbar-links {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links-item {
+  margin: 0;
+  padding: 0.5em;
+  display: inline-block;
+}
