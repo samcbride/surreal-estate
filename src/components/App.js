@@ -3,7 +3,7 @@ import "../styles/App.css";
 import { Switch, Route } from "react-router-dom";
 import NavBar from "./NavBar";
 import Properties from "./Properties";
-import AddProperties from "./AddProperties";
+import AddProperty from "./AddProperty";
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
         <Route exact path="/" component={Properties}>
           <Properties />
         </Route>
-        <Route exact path="/add-property" component={AddProperties}>
-          <AddProperties />
+        <Route exact path="/add-property" component={AddProperty}>
+          <AddProperty />
         </Route>
       </Switch>
     </div>
